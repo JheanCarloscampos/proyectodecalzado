@@ -1,5 +1,29 @@
-<div class="product-card">
-    <img [src]="product.imagen" alt="{{ product.modelo }}" />
-    <h2>{{ product.modelo }}</h2>
-    <p><strong>Price:</strong> {{ product.precio | currency }}</p>
-</div>
+<section class="productos">
+
+  <div class="adidas">
+    <h1 class="text-center text-black">Zapatos Adidas</h1>
+    <div id="adidas" class="row">
+      <div class="flex flex-wrap -m-4">
+      <app-adidas></app-adidas>
+      </div>
+    </div> 
+  </div>
+  <div class="nike">
+    <h1 class="text-center text-black">Zapatos NiKe</h1>
+    <div id="nike" class="row">
+      <div class="flex flex-wrap -m-4">
+        <app-nike></app-nike>
+      </div>
+    </div>
+  </div>
+  <div class="new-balance">
+    <h1 class="text-center text-black">Zapatos New Balance</h1>
+    <div id="new-balance" class="row">
+      <div class="flex flex-wrap -m-4">
+        <app-new-balance></app-new-balance>
+      </div>
+    </div>
+  </div>
+
+</section>
+  

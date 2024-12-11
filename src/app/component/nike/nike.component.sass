@@ -1,0 +1,53 @@
+.card
+  border-radius: 12px
+  margin-bottom: 20px
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+  transition: transform 0.3s, box-shadow 0.3s
+  overflow: hidden
+  &:hover
+    transform: translateY(-10px)
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2)
+
+  img
+    transition: transform 0.3s
+    &:hover
+    transform: scale(1.05)
+
+.card-body
+    text-align: center
+    padding: 20px
+
+.card-title
+    font-size: 1.25rem
+    font-weight: bold
+    margin-bottom: 10px
+
+.card-text
+    font-size: 1rem
+    color: #555
+    margin-bottom: 20px
+
+.btn
+    display: inline-block
+    font-size: 1rem
+    font-weight: bold
+    color: white
+    background: linear-gradient(90deg, #ff7e5f, #feb47b)
+    border: none
+    border-radius: 30px
+    padding: 10px 20px
+    cursor: pointer
+    text-transform: uppercase
+    transition: all 0.3s ease
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+      
+    &:hover
+    background: linear-gradient(90deg, #feb47b, #ff7e5f)
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15)
+    transform: translateY(-3px)
+    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.4)
+
+    &:active
+        transform: translateY(1px)
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)
+

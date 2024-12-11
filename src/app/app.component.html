@@ -1,12 +1,13 @@
+<header class="header bg-dark">
+    <app-header></app-header>
+  </header>
+  <br>
+  <main class="container mt-4">
+    <router-outlet></router-outlet>
+  </main>
+  <br>
+  <footer>
+    <app-footer></app-footer>
+  </footer>
+  
 
-<app-header></app-header>
-<app-galeria></app-galeria>
-<div class="product-list">
-    <app-product-card *ngFor="let product of products" [product]="product"></app-product-card>
-</div>
-<br><br>
-
-<app-footer></app-footer>
-
-
-<router-outlet/>

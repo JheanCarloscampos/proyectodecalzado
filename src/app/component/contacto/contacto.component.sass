@@ -1,0 +1,65 @@
+// Variables
+$primary-color: #007bff
+$secondary-color: #6c757d
+$background-color: #f8f9fa
+$header-bg: #343a40
+$footer-bg: #343a40
+
+// Container principal
+.contact-container
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+
+Encabezado
+.header
+  background-color: $header-bg
+  color: white
+  text-align: center
+  padding: 2rem
+  h1
+    font-size: 2.5rem
+    font-weight: bold
+
+// Contenido principal
+.contact-content
+  flex: 1
+  padding: 2rem 0
+  .contact-info
+    padding: 2rem
+    .row
+      margin-bottom: 2rem
+    h2
+      font-size: 1.5rem
+      margin-bottom: 1rem
+      color: $primary-color
+    ul
+      list-style: none
+      padding-left: 0
+      li
+        font-size: 1rem
+        color: $secondary-color
+        margin-bottom: 0.5rem
+        i
+          margin-right: 0.5rem
+          font-size: 1.2rem
+    a
+      color: $primary-color
+      text-decoration: none
+      &:hover
+        text-decoration: underline
+
+// Footer
+.footer
+  background-color: $footer-bg
+  color: white
+  text-align: center
+  padding: 1rem
+  p
+    font-size: 1rem
+    margin: 0
+
+// Estilos adicionales
+.container
+  max-width: 1200px
+  margin: 0 auto
